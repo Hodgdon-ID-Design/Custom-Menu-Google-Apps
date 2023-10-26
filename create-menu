@@ -1,0 +1,9 @@
+function onOpen() {
+  var ui = SpreadsheetApp.getUi(); 
+  
+  // For Google Sheets, use DocumentApp.getUi() for Google Docs, and FormApp.getUi() for Google Forms
+  
+    ui.createMenu('Custom Menu')
+    .addItem('Custom Menu Item', 'myFunction')
+    .addToUi();
+}
