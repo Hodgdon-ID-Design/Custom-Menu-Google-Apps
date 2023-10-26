@@ -1,0 +1,5 @@
+function myFunction() {
+  // Perform the desired actions when the custom menu item is selected
+  // This is just a placeholder function, replace it with your own code
+  SpreadsheetApp.getActiveSpreadsheet().toast('Custom menu item selected!', 'Status', 3);
+}
